@@ -1,0 +1,16 @@
+<h1>Editing division</h1>
+
+<% form_for(@division) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :division_name %><br />
+    <%= f.text_field :division_name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @division %> |
+<%= link_to 'Back', divisions_path %>

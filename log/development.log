@@ -1,0 +1,1004 @@
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-01 21:48:01) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-01 21:49:00) [GET]
+
+ActionView::MissingTemplate (Missing template bstats/index.erb in view path app/views):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-01 21:50:57) [GET]
+Rendering bstats/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-01 21:52:31) [GET]
+Rendering bstats/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing ApplicationController#load_xml (for 127.0.0.1 at 2010-06-01 21:54:21) [GET]
+
+SyntaxError (C:/bu/ruby/bstats/app/controllers/admin_controller.rb:1: syntax error, unexpected tLSHFT, expecting '<' or '\n' or ';'
+class AdminController << ApplicationController
+                        ^
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:3: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:3: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:6: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:6: unknown regexp options - prgra
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:6: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:7: Invalid char `\223' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:12: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:12: Invalid char `\222' in expression):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#load_xml (for 127.0.0.1 at 2010-06-01 21:56:11) [GET]
+
+SyntaxError (C:/bu/ruby/bstats/app/controllers/admin_controller.rb:1: syntax error, unexpected tLSHFT, expecting '<' or '\n' or ';'
+class AdminController << ApplicationController
+                        ^
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:7: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:7: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:10: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:10: unknown regexp options - prgra
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:10: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:11: Invalid char `\223' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:16: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:16: Invalid char `\222' in expression):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#load_xml (for 127.0.0.1 at 2010-06-01 21:56:46) [GET]
+
+SyntaxError (C:/bu/ruby/bstats/app/controllers/admin_controller.rb:7: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:7: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:10: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:10: unknown regexp options - prgra
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:10: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:11: Invalid char `\223' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:16: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/controllers/admin_controller.rb:16: Invalid char `\222' in expression):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#load_xml (for 127.0.0.1 at 2010-06-01 22:03:24) [GET]
+Rendering admin/load_xml
+ERROR: compiling _run_erb_app47views47admin47load_xml46html46erb RAISED compile error
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:2: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:2: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:4: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:4: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:5: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:5: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\222' in expression
+Function body:           def _run_erb_app47views47admin47load_xml46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Load XML<h1>\n"
+; @output_buffer.concat(( form_tag({ :action=> ‘import_xml’}, {multipart => true }) ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( file_field :document, :file ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( submit_tag ‘Import’ ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( end_form_tag ‘Import’ ).to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( link_to ‘Back’, :action => ‘list’ ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:10:in `compile!'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:2: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:2: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:4: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:4: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:5: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:5: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/load_xml.html.erb:6: Invalid char `\222' in expression) on line #2 of app/views/admin/load_xml.html.erb:
+1: <h1>Load XML<h1>
+2: <%= form_tag({ :action=> ‘import_xml’}, {multipart => true }) %>
+3: <%= file_field :document, :file %>
+4: <%= submit_tag ‘Import’ %>
+5: <%= end_form_tag ‘Import’ %>
+
+    app/views/admin/load_xml.html.erb:10:in `compile!'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#load_xml (for 127.0.0.1 at 2010-06-01 22:05:02) [GET]
+Rendering admin/load_xml
+
+ActionView::TemplateError (undefined local variable or method `multipart' for #<ActionView::Base:0x3555df8>) on line #2 of app/views/admin/load_xml.html.erb:
+1: <h1>Load XML<h1>
+2: <%= form_tag({ :action=> "import_xml"}, {multipart => true }) %>
+3: <%= file_field :document, :file %>
+4: <%= submit_tag "Import" %>
+5: <%= end_form_tag "Import" %>
+
+    app/views/admin/load_xml.html.erb:2
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (171.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#load_xml (for 127.0.0.1 at 2010-06-01 22:05:28) [GET]
+Rendering admin/load_xml
+
+ActionView::TemplateError (undefined method `end_form_tag' for #<ActionView::Base:0x3848850>) on line #5 of app/views/admin/load_xml.html.erb:
+2: <%= form_tag({ :action=> "import_xml"}, {:multipart => true }) %>
+3: <%= file_field :document, :file %>
+4: <%= submit_tag "Import" %>
+5: <%= end_form_tag "Import" %>
+6: <%= link_to "Back", :action => "list" %>
+
+    app/views/admin/load_xml.html.erb:5
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#load_xml (for 127.0.0.1 at 2010-06-01 22:09:52) [GET]
+Rendering admin/load_xml
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/admin/load_xml]
+
+
+Processing AdminController#list (for 127.0.0.1 at 2010-06-01 22:10:09) [GET]
+Rendering admin/list
+ERROR: compiling _run_erb_app47views47admin47list46html46erb RAISED compile error
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:16: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:16: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:17: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:17: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\222' in expression
+Function body:           def _run_erb_app47views47admin47list46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing programmes</h1>\n  <table>\n    <tr>\n      "
+
+
+;  for column in Programme.content_columns ; @output_buffer.concat "\n        <th>"
+; @output_buffer.concat(( column.human_name ).to_s); @output_buffer.concat "</th>\n      "
+;  end ; @output_buffer.concat "\n    </tr>\n    "
+
+;  for programme in @programmes ; @output_buffer.concat "\n      <tr>\n        "
+
+;  for column in Programme.content_columns ; @output_buffer.concat "\n          <td>"
+; @output_buffer.concat((h programme.send(column.name) ).to_s); @output_buffer.concat "</td>\n        "
+;  end ; @output_buffer.concat "\n      </tr>\n    "
+
+;  end ; @output_buffer.concat "\n  </table>\n  "
+
+; @output_buffer.concat(( link_to ‘Previous page’, { :page => @programme_pages.current.previous } if @programme_pages.current.previous ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( link_to ‘Next page’, { :page => @programme_pages.current.next } if @programme_pages.current.next ).to_s); @output_buffer.concat "<br />\n  "
+; @output_buffer.concat(( link_to ‘Import XML’, :action => ‘load_xml’ ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/bu/ruby/bstats/app/views/admin/list.html.erb:22:in `compile!'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:16: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:16: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:17: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:17: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/admin/list.html.erb:18: Invalid char `\222' in expression) on line #16 of app/views/admin/list.html.erb:
+13:       </tr>
+14:     <% end %>
+15:   </table>
+16:   <%= link_to ‘Previous page’, { :page => @programme_pages.current.previous } if @programme_pages.current.previous %>
+17:   <%= link_to ‘Next page’, { :page => @programme_pages.current.next } if @programme_pages.current.next %><br />
+18:   <%= link_to ‘Import XML’, :action => ‘load_xml’ %>
+
+    app/views/admin/list.html.erb:22:in `compile!'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#load_xml (for 127.0.0.1 at 2010-06-01 22:13:12) [GET]
+
+SyntaxError (C:/bu/ruby/bstats/app/controllers/bstats_controller.rb:13: unterminated string meets end of file
+C:/bu/ruby/bstats/app/controllers/bstats_controller.rb:13: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#load_xml (for 127.0.0.1 at 2010-06-01 22:14:09) [GET]
+
+SyntaxError (C:/bu/ruby/bstats/app/controllers/bstats_controller.rb:14: syntax error, unexpected '?'
+...st, :conditions => [ â€œname=?â€, p.attibutes[:name] ]) the...
+                              ^
+C:/bu/ruby/bstats/app/controllers/bstats_controller.rb:14: syntax error, unexpected ']', expecting '='
+...ame=?â€, p.attibutes[:name] ]) then
+                              ^
+C:/bu/ruby/bstats/app/controllers/bstats_controller.rb:22: syntax error, unexpected kEND, expecting $end):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-01 22:15:04) [GET]
+Rendering bstats/load_xml
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-01 22:15:12) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100601-7300-gfds4g-0>}}
+Redirected to http://localhost:3000/bstats/list
+Completed in 57531ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-01 22:17:00) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100601-7300-c2csmz-0>}}
+Redirected to http://localhost:3000/bstats/list
+Completed in 76703ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#list (for 127.0.0.1 at 2010-06-01 22:18:17) [GET]
+Rendering bstats/list
+ERROR: compiling _run_erb_app47views47bstats47list46html46erb RAISED compile error
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:16: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:16: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:17: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:17: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\222' in expression
+Function body:           def _run_erb_app47views47bstats47list46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Listing programmes</h1>\n  <table>\n    <tr>\n      "
+
+
+;  for column in Programme.content_columns ; @output_buffer.concat "\n        <th>"
+; @output_buffer.concat(( column.human_name ).to_s); @output_buffer.concat "</th>\n      "
+;  end ; @output_buffer.concat "\n    </tr>\n    "
+
+;  for programme in @programmes ; @output_buffer.concat "\n      <tr>\n        "
+
+;  for column in Programme.content_columns ; @output_buffer.concat "\n          <td>"
+; @output_buffer.concat((h programme.send(column.name) ).to_s); @output_buffer.concat "</td>\n        "
+;  end ; @output_buffer.concat "\n      </tr>\n    "
+
+;  end ; @output_buffer.concat "\n  </table>\n  "
+
+; @output_buffer.concat(( link_to ‘Previous page’, { :page => @programme_pages.current.previous } if @programme_pages.current.previous ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( link_to ‘Next page’, { :page => @programme_pages.current.next } if @programme_pages.current.next ).to_s); @output_buffer.concat "<br />\n  "
+; @output_buffer.concat(( link_to ‘Import XML’, :action => ‘load_xml’ ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/bu/ruby/bstats/app/views/bstats/list.html.erb:22:in `compile!'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:16: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:16: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:17: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:17: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\222' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\221' in expression
+C:/bu/ruby/bstats/app/views/bstats/list.html.erb:18: Invalid char `\222' in expression) on line #16 of app/views/bstats/list.html.erb:
+13:       </tr>
+14:     <% end %>
+15:   </table>
+16:   <%= link_to ‘Previous page’, { :page => @programme_pages.current.previous } if @programme_pages.current.previous %>
+17:   <%= link_to ‘Next page’, { :page => @programme_pages.current.next } if @programme_pages.current.next %><br />
+18:   <%= link_to ‘Import XML’, :action => ‘load_xml’ %>
+
+    app/views/bstats/list.html.erb:22:in `compile!'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-01 22:22:17) [GET]
+Rendering bstats/load_xml
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-01 22:22:25) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100601-7300-1lksm3j-0>}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/controllers/bstats_controller.rb:14:in `import_xml'
+  C:/Ruby/lib/ruby/1.8/rexml/element.rb:891:in `each'
+  C:/Ruby/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  C:/Ruby/lib/ruby/1.8/rexml/element.rb:891:in `each'
+  C:/Ruby/lib/ruby/1.8/rexml/element.rb:393:in `each_element'
+  app/controllers/bstats_controller.rb:13:in `import_xml'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-01 22:27:10) [GET]
+Rendering bstats/load_xml
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-01 22:27:13) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100601-7300-yei1dw-0>}}
+
+NoMethodError (undefined method `<<' for {}:Hash):
+  app/controllers/bstats_controller.rb:15:in `import_xml'
+  C:/Ruby/lib/ruby/1.8/rexml/element.rb:891:in `each'
+  C:/Ruby/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  C:/Ruby/lib/ruby/1.8/rexml/element.rb:891:in `each'
+  C:/Ruby/lib/ruby/1.8/rexml/element.rb:393:in `each_element'
+  app/controllers/bstats_controller.rb:14:in `import_xml'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (15.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-01 22:35:04) [GET]
+Rendering bstats/load_xml
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-01 22:35:09) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100601-7300-1i2h121-0>}}
+Redirected to http://localhost:3000/bstats
+Completed in 26531ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-01 22:35:36) [GET]
+Rendering bstats/index
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-01 22:37:43) [GET]
+Rendering bstats/load_xml
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-01 22:37:46) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100601-7300-5r2fcf-0>}}
+Redirected to http://localhost:3000/bstats
+Completed in 29219ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-01 22:38:16) [GET]
+Rendering bstats/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-02 21:55:57) [GET]
+Rendering bstats/index
+Completed in 156ms (View: 141, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-02 21:56:15) [GET]
+Rendering bstats/load_xml
+Completed in 297ms (View: 297, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-02 21:56:22) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100602-3384-nxpkg7-0>}}
+Redirected to http://localhost:3000/bstats
+Completed in 17344ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-02 21:56:39) [GET]
+Rendering bstats/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-02 22:01:17) [GET]
+Rendering bstats/load_xml
+Completed in 156ms (View: 141, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-02 22:01:20) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100602-3384-1142f4d-0>}}
+Redirected to http://localhost:3000/bstats
+Completed in 15594ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-02 22:01:39) [GET]
+Rendering bstats/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats]
+
+
+Processing BstatsController#load_xml (for 127.0.0.1 at 2010-06-02 22:04:32) [GET]
+Rendering bstats/load_xml
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats/load_xml]
+
+
+Processing BstatsController#import_xml (for 127.0.0.1 at 2010-06-02 22:04:34) [POST]
+  Parameters: {"commit"=>"Import", "authenticity_token"=>"VjKBsDVkwyz+y1l3tUKB7rhbWFj0V/M8/rOtD8itqhM=", "document"=>{"file"=>#<File:C:/DOCUME~1/Dean/LOCALS~1/Temp/RackMultipart20100602-3384-toln75-0>}}
+Redirected to http://localhost:3000/bstats
+Completed in 3391ms (DB: 0) | 302 Found [http://localhost/bstats/import_xml]
+
+
+Processing BstatsController#index (for 127.0.0.1 at 2010-06-02 22:04:37) [GET]
+Rendering bstats/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/bstats]
+  [4;36;1mSQL (15.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (109.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (109.4ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "stats" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "year_id" integer, "player_id" integer, "team_id" integer, "avg" float, "hr" integer, "rbi" integer, "runs" integer, "sb" integer, "ops" float, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100602014708')[0m
+Migrating to CreateYears (20100606023012)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "years" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "year" varchar(4), "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100606023012')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stats")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("years")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+Migrating to CreateYears (20100606023012)
+Migrating to CreateLeagues (20100606024832)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "leagues" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "league_name" varchar(20), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100606024832')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("leagues")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stats")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("years")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+Migrating to CreateYears (20100606023012)
+Migrating to CreateLeagues (20100606024832)
+Migrating to CreateDivisions (20100606025254)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "divisions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "division_name" varchar(20), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100606025254')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("divisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("leagues")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("stats")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("years")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+Migrating to CreateYears (20100606023012)
+Migrating to CreateLeagues (20100606024832)
+Migrating to CreateDivisions (20100606025254)
+Migrating to CreateTeams (20100606025519)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mCREATE TABLE "teams" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "team_city" varchar(20), "team_name" varchar(20), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100606025519')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("divisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("leagues")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("stats")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("teams")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("years")[0m
+  [4;36;1mSQL (15.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+Migrating to CreateYears (20100606023012)
+Migrating to CreateLeagues (20100606024832)
+Migrating to CreateDivisions (20100606025254)
+Migrating to CreateTeams (20100606025519)
+Migrating to CreatePlayers (20100606025856)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "players" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "given_name" varchar(20), "surname" varchar(40), "position" varchar(20), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100606025856')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("divisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("leagues")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("players")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stats")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("teams")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("years")[0m
+  [4;36;1mYear Load (0.0ms)[0m   [0;1mSELECT * FROM "years" WHERE ("years"."year" = '2005') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+Migrating to CreateYears (20100606023012)
+Migrating to CreateLeagues (20100606024832)
+Migrating to CreateDivisions (20100606025254)
+Migrating to CreateTeams (20100606025519)
+Migrating to CreatePlayers (20100606025856)
+Migrating to AddLeagueIdToDivision (20100606040018)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mALTER TABLE "divisions" ADD "league_id" integer[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100606040018')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("divisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("leagues")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("players")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stats")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("teams")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("years")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStats (20100602014708)
+Migrating to CreateYears (20100606023012)
+Migrating to CreateLeagues (20100606024832)
+Migrating to CreateDivisions (20100606025254)
+Migrating to CreateTeams (20100606025519)
+Migrating to CreatePlayers (20100606025856)
+Migrating to AddLeagueIdToDivision (20100606040018)
+Migrating to AddDivisionIdToTeam (20100606040543)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mALTER TABLE "teams" ADD "division_id" integer[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100606040543')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("divisions")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("leagues")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("players")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("stats")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("teams")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("years")[0m

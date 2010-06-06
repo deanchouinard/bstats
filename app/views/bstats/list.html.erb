@@ -1,0 +1,18 @@
+<h1>Listing programmes</h1>
+  <table>
+    <tr>
+      <% for column in Programme.content_columns %>
+        <th><%= column.human_name %></th>
+      <% end %>
+    </tr>
+    <% for programme in @programmes %>
+      <tr>
+        <% for column in Programme.content_columns %>
+          <td><%=h programme.send(column.name) %></td>
+        <% end %>
+      </tr>
+    <% end %>
+  </table>
+  <%= link_to ‘Previous page’, { :page => @programme_pages.current.previous } if @programme_pages.current.previous %>
+  <%= link_to ‘Next page’, { :page => @programme_pages.current.next } if @programme_pages.current.next %><br />
+  <%= link_to ‘Import XML’, :action => ‘load_xml’ %>

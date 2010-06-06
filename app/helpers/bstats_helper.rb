@@ -1,0 +1,2 @@
+module BstatsHelper
+end

@@ -1,0 +1,16 @@
+<h1>Editing year</h1>
+
+<% form_for(@year) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @year %> |
+<%= link_to 'Back', years_path %>

@@ -1,0 +1,20 @@
+<h1>Editing team</h1>
+
+<% form_for(@team) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :team_city %><br />
+    <%= f.text_field :team_city %>
+  </p>
+  <p>
+    <%= f.label :team_name %><br />
+    <%= f.text_field :team_name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @team %> |
+<%= link_to 'Back', teams_path %>
