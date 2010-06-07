@@ -85,11 +85,12 @@ class BstatsController < ApplicationController
 								
 								puts "HOME RUNS: #{home_runs.to_i}"
 		
+								imp_player = Player.find(:all, :conditions => ["given_name = :given_name and surname = :surname and position = :position"])
+								if not imp_player
+									imp_player = Player.create(:given_name => given_name, :surname => surname, :position => position)
+								end
 		
 							end
-						imp_player = Player.find(:all, :conditions => ["given_name = :given_name and surname = :surname and position = :position"])
-						if not imp_player
-							implayer = Pl
 
 						end
 					end

@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.connect 'stats/load_xml', :controller => 'stats', :action => 'load_xml'
+	
+	map.resources :stats
+
   map.resources :players
 
   map.resources :teams

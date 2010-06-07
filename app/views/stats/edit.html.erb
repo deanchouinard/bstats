@@ -1,0 +1,12 @@
+<h1>Editing stat</h1>
+
+<% form_for(@stat) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @stat %> |
+<%= link_to 'Back', stats_path %>
