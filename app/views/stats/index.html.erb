@@ -7,7 +7,7 @@
 <% @stats.each do |stat| %>
   <tr>
   	<td><%= stat.player.surname %>
-  	<td><%= stat.avg %>
+  	<td><%= sprintf( "%0.3f", stat.avg ) %>
     <td><%= link_to 'Show', stat %></td>
     <td><%= link_to 'Edit', edit_stat_path(stat) %></td>
     <td><%= link_to 'Destroy', stat, :confirm => 'Are you sure?', :method => :delete %></td>
@@ -17,4 +17,6 @@
 
 <br />
 
+<%= link_to 'Import XML File', :action => 'load_xml' %>
+<br />
 <%= link_to 'New stat', new_stat_path %>

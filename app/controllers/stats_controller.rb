@@ -1,4 +1,8 @@
 class StatsController < ApplicationController
+
+    require "rexml/document"
+    include REXML
+
   # GET /stats
   # GET /stats.xml
   def index
@@ -87,32 +91,32 @@ class StatsController < ApplicationController
 	end
 	
 	def import_xml
-    require "rexml/document"
-    file=params[:document][:file]
-    doc=REXML::Document.new(file.read)
+    
+    file = params[:document][:file]
+    doc = Document.new(file.read)
 
-		doc.elements.each("//SEASON") do |season|
+		XPath.each(doc, "SEASON") do |season|
 			year = season.elements['YEAR'].text
 			imp_year = Year.find_by_year( year )
 			if not imp_year
 				imp_year = Year.create(:year => year)
 			end
 			
-			season.elements.each("//LEAGUE") do |league|
+			XPath.each(season, "LEAGUE") do |league|
 				league_name = league.elements['LEAGUE_NAME'].text
 				imp_league = League.find_by_league_name( league_name )
 				if not imp_league
 					imp_league = League.create(:league_name => league_name)
 				end
 				
-				league.elements.each("//DIVISION") do |division|
+				XPath.each(league, "DIVISION") do |division|
 					division_name = division.elements['DIVISION_NAME'].text
 					imp_division = Division.find_by_division_name( division_name )
 					if not imp_division
 						imp_division = Division.create(:division_name => division_name, :league_id => imp_league.id)
 					end
 					
-					division.elements.each("//TEAM") do |team|
+					XPath.each(division, "TEAM") do |team|
 						team_city = team.elements['TEAM_CITY'].text
 						team_name = team.elements['TEAM_NAME'].text
 						imp_team = Team.find_by_team_name( team_name )
@@ -120,7 +124,7 @@ class StatsController < ApplicationController
 							imp_team = Team.create( :team_city => team_city, :team_name => team_name, :division_id => imp_division.id )
 						end
 						
-						team.elements.each("//PLAYER") do |player|
+						XPath.each(team, "PLAYER") do |player|
 							given_name = player.elements['GIVEN_NAME'].text
 							surname = player.elements['SURNAME'].text
 							position = player.elements['POSITION'].text
