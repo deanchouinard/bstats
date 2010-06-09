@@ -1,19 +1,9 @@
 <h1>Listing stats</h1>
 
-<table>
-  <tr>
-  </tr>
+<div id="stat-table">
+  <%= render(:partial => "stats") %>
+</div>
 
-<% @stats.each do |stat| %>
-  <tr>
-  	<td><%= stat.player.surname %>
-  	<td><%= sprintf( "%0.3f", stat.avg ) %>
-    <td><%= link_to 'Show', stat %></td>
-    <td><%= link_to 'Edit', edit_stat_path(stat) %></td>
-    <td><%= link_to 'Destroy', stat, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
 
 <br />
 

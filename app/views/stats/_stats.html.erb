@@ -1,0 +1,30 @@
+<table>
+  <tr>
+    <th>City</th>
+    <th>Team</th>
+    <th>Player</th>
+    <th>AVG</th>
+    <th>HR</th>
+    <th>RBI</th>
+    <th>RUNS</th>
+    <th>SB</th>
+    <th>OPS</th>
+  </tr>
+
+<% @stats.each do |stat| %>
+  <tr>
+    <td><%= stat.team.team_city %>
+    <td><%= stat.team.team_name %>
+    <td><%= stat.player.given_name + " " + stat.player.surname %>
+    <td><%= format_stat( stat.avg ) %>
+    <td><%= stat.hr %>
+    <td><%= stat.rbi %>
+    <td><%= stat.runs %>
+    <td><%= stat.sb %>
+    <td><%= format_stat( stat.ops ) %>
+    <td><%= link_to 'Show', stat %></td>
+    <td><%= link_to 'Edit', edit_stat_path(stat) %></td>
+    <td><%= link_to 'Destroy', stat, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
