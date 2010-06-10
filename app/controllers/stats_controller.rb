@@ -7,7 +7,8 @@ class StatsController < ApplicationController
   # GET /stats.xml
   def index
     @stats = Stat.find(:all, :order => "avg DESC", :limit => 25)
-
+    @avg_url = "<%= link_to_remote 'AVG', :url => { :action => 'sort_table' }, :method => 'get' %>"
+    
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @stats }
@@ -85,6 +86,15 @@ class StatsController < ApplicationController
       format.html { redirect_to(stats_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  def sort_table
+    @stats = Stat.find(:all, :order => "avg ASC", :limit => 25)
+
+    respond_to do |format|
+      format.js
+    end
+    
   end
   
   def load_xml

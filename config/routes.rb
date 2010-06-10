@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   map.connect 'stats/load_xml', :controller => 'stats', :action => 'load_xml'
+	map.connect 'stats/sort_table', :controller => 'stats', :action => 'sort_table'
 	
 	map.resources :stats
 
