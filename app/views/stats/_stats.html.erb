@@ -3,12 +3,12 @@
     <th>City</th>
     <th>Team</th>
     <th>Player</th>
-    <th><%= @avg_url %> </th>
-    <th>HR</th>
-    <th>RBI</th>
-    <th>RUNS</th>
-    <th>SB</th>
-    <th>OPS</th>
+    <th><%= link_to_remote 'AVG', :url => { :action => "sort_table", :stat => "avg", :order => @order }, :method => 'get' %> </th>
+    <th><%= link_to_remote 'HR', :url => { :action => "sort_table", :stat => "hr", :order => @order }, :method => 'get' %></th>
+    <th><%= link_to_remote 'RBI', :url => { :action => "sort_table", :stat => "rbi", :order => @order }, :method => 'get' %></th>
+    <th><%= link_to_remote 'RUNS', :url => { :action => "sort_table", :stat => "runs", :order => @order }, :method => 'get' %></th>
+    <th><%= link_to_remote 'SB', :url => { :action => "sort_table", :stat => "sb", :order => @order }, :method => 'get' %></th>
+    <th><%= link_to_remote 'OPS', :url => { :action => "sort_table", :stat => "ops", :order => @order }, :method => 'get' %></th>
   </tr>
 
 <% @stats.each do |stat| %>
