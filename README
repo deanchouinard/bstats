@@ -1,32 +1,42 @@
 == How I Developed the Stats Application
 
+I used the following books:
+Agile Web Development with Rails, 3rd Ed, Thomas, Ruby, Hansson
+The Rails Way, Fernandez
+The Well-Grounded Rubyist, Black
+Programming Ruby, Thomas
+
+And the Internet with Google!
+
 Two major parts:
 1. importing XML data
 2. dynamic table display
 
 === Importing XML Data
-I started by searching Internet with Google, looking for Ruby, Rails, and XML.
-Research several XML libraries, and eventually choose REXML because it is
+I started by searching the Internet with Google, looking for Ruby, Rails, and XML.
+I then researched several XML libraries I found, and eventually choose REXML because it is
 part of the Ruby Standard Libary and the only major critisism I found was that
 it is slow. I didn't think that would be a bid deal for this app.
 
-I then search with Google for examples of REXML. I found a small sample XML file
+I then searched for examples of using REXML. I found a small sample XML file
 and started playing with the library, trying different things with the simple
-XML file. I tried on the baseball_stats.xml file but it took a long time to
+XML file. I then tried my code on the baseball_stats.xml file, but it took a long time to
 process. I made a smaller version of the file to use during development.
 
-When I encounter something I don't know how to do I research it in my books
+As a general development strategy, when I encounter something I don't know how to do I research it in my books
 and do searches on Google. I then start with something simple and small, 
 and then gradually build upon that step by step until I end up with what
 I want.
 
-At this point I was familiar enough with the data to design the data model.
+Eventually, I thought I had a good XML input script. This took the most time
+during this project. At this point I was familiar enough with the data to
+design the data model.
 
 === Designing the Data Model
 On a piece of paper I wrote down all the major data entities from the XML
-file and started to draw lines between them. I then redrew it on another
-piece of paper, changing the lines a little bit and adding more relationship
-information. On the third page I drew what I wanted to go with.
+file and started to draw lines between them. I then redrew it, changing
+the lines a little bit and adding more relationship
+information. I redrew it again and had the data model I would use.
 
 My decision making here was based on my experience.
 
@@ -38,11 +48,14 @@ I ran across a simple file import page during my Google searches and I got that
 working.
 
 I then cut and pasted the code I wrote in my REXML tests into a method in the stats
-controller and then added code to get the data in the database.
+controller and then added code to insert the data in the database.
 Once I got this displaying on a simple index page I relealized my
 XML import was not working the way I thought it was. I went back to Google and
 eventually found some source code that was similar enough to what I wanted to do,
 and that helped me correct the XML import.
+
+I added a helper to format the float numbers in the display: format_stat in
+stats_helper.rb.
 
 === Building the Dynamic Table Display
 got simple AJAX working

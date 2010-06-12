@@ -91,9 +91,9 @@ class StatsController < ApplicationController
   end
   
   def sort_table
-    
+    # called by AJAX function in columns of stats table; orders appropriate stat
+    # column alternately between ASC and DESC
     table_order = params[:stat] + " " + params[:order]
-    
     @stats = Stat.find(:all, :order => table_order, :limit => 25)
     
     if params[:order] == "desc"
@@ -117,13 +117,18 @@ class StatsController < ApplicationController
   end
   
   def load_xml
+    # dummy function to display load XML page
   end
   
   def import_xml
+    # from script to import data from XML file
+    # checks for duplicate records
+    # imp_* = imported record
     
     file = params[:document][:file]
     doc = Document.new(file.read)
 
+    # import Season recorn
     XPath.each(doc, "SEASON") do |season|
       year = season.elements['YEAR'].text
       imp_year = Year.find_by_year( year )
@@ -131,6 +136,7 @@ class StatsController < ApplicationController
         imp_year = Year.create(:year => year)
       end
       
+      # import League record
       XPath.each(season, "LEAGUE") do |league|
         league_name = league.elements['LEAGUE_NAME'].text
         imp_league = League.find_by_league_name( league_name )
@@ -138,6 +144,7 @@ class StatsController < ApplicationController
           imp_league = League.create(:league_name => league_name)
         end
         
+        # Import division record
         XPath.each(league, "DIVISION") do |division|
           division_name = division.elements['DIVISION_NAME'].text
           imp_division = Division.find_by_division_name( division_name )
@@ -145,6 +152,7 @@ class StatsController < ApplicationController
             imp_division = Division.create(:division_name => division_name, :league_id => imp_league.id)
           end
           
+          # import Team record
           XPath.each(division, "TEAM") do |team|
             team_city = team.elements['TEAM_CITY'].text
             team_name = team.elements['TEAM_NAME'].text
@@ -153,12 +161,14 @@ class StatsController < ApplicationController
               imp_team = Team.create( :team_city => team_city, :team_name => team_name, :division_id => imp_division.id )
             end
             
+            # get Player data
             XPath.each(team, "PLAYER") do |player|
               given_name = player.elements['GIVEN_NAME'].text
               surname = player.elements['SURNAME'].text
               position = player.elements['POSITION'].text
-              
-              if not player.elements['AT_BATS'].nil?  # player has been at bat
+    
+              # only import player who have been at bat
+              if not player.elements['AT_BATS'].nil?  # true if player has been at bat
                 at_bats = player.elements['AT_BATS'].text.to_f
                 runs = player.elements['RUNS'].text
                 hits = player.elements['HITS'].text.to_f
@@ -179,7 +189,6 @@ class StatsController < ApplicationController
                 else
                   avg = 0
                 end
-                puts format("#{avg} to AVG %.3f\n",avg)
                 
                 # calculate OPS - On-base plus slugging (formular from wikipedia.com)
                 #
@@ -194,22 +203,21 @@ class StatsController < ApplicationController
                   singles = hits - total_bases
                   total_bases = total_bases + singles
                   
+                  # process OPS
                   top_equ = at_bats * ( hits + walks + hit_by_pitch) + total_bases * (at_bats + walks + sacrifice_flies + hit_by_pitch)
                   bottom_equ = at_bats * ( at_bats + walks + sacrifice_flies + hit_by_pitch)
                   ops = top_equ / bottom_equ
                 else
                   ops = 0.00
                 end
-                puts format("#{ops} to OPS %.3f\n",ops)
-                
-                puts "HOME RUNS: #{home_runs.to_i}"
-    
+
+                # Import Player record
                 imp_player = Player.find(:first, :conditions => ["given_name = ? and surname = ? and position = ?", given_name, surname, position])
                 if not imp_player
                   imp_player = Player.create(:given_name => given_name, :surname => surname, :position => position)
                 end
                 
-#								imp_stat = Stat.find(:all, :conditions => ["imp_year.id = :year_id and imp_player.id = :player_id and imp_team.id = :team_id"])
+                #import Stat record
                 imp_stat = Stat.find(:first, :conditions => ["year_id = ? and player_id = ? and team_id = ?", imp_year.id, imp_player.id, imp_team.id])
                 if not imp_stat
                   imp_stat = Stat.create(:year_id => imp_year.id, :player_id => imp_player.id, :team_id => imp_team.id,

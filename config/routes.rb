@@ -1,5 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+  # route for the XML file upload
   map.connect 'stats/load_xml', :controller => 'stats', :action => 'load_xml'
+  # route for the AJAX command to sort by stats
 	map.connect 'stats/sort_table/:stat/:order', :controller => 'stats', :action => 'sort_table'
   map.connect 'stats/sort_table', :controller => 'stats', :action => 'sort_table'
 	
