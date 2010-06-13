@@ -1,16 +1,17 @@
+== Getting Started
+
+Go to the http://localhost/stats URL
+Click the Import XML File link
+NOTE: the import takes almost 10 minutes on my machine
+
 == How I Developed the Stats Application
 
-I used the following books:
-Agile Web Development with Rails, 3rd Ed, Thomas, Ruby, Hansson
-The Rails Way, Fernandez
-The Well-Grounded Rubyist, Black
-Programming Ruby, Thomas
-
-And the Internet with Google!
-
-Two major parts:
+I analyzed the requirements and determined there were two major parts:
 1. importing XML data
 2. dynamic table display
+
+I hadn't done any XML imports or AJAX with Rails before so I knew this
+would be a good learning experience for me.
 
 === Importing XML Data
 I started by searching the Internet with Google, looking for Ruby, Rails, and XML.
@@ -23,10 +24,10 @@ and started playing with the library, trying different things with the simple
 XML file. I then tried my code on the baseball_stats.xml file, but it took a long time to
 process. I made a smaller version of the file to use during development.
 
-As a general development strategy, when I encounter something I don't know how to do I research it in my books
-and do searches on Google. I then start with something simple and small, 
-and then gradually build upon that step by step until I end up with what
-I want.
+As a general development strategy, when I encounter something I don't
+know how to do I research it in my books and do searches on Google. I then
+start with something simple and small, and then gradually build upon that
+step by step until I end up with what I want.
 
 Eventually, I thought I had a good XML input script. This took the most time
 during this project. At this point I was familiar enough with the data to
@@ -49,18 +50,38 @@ working.
 
 I then cut and pasted the code I wrote in my REXML tests into a method in the stats
 controller and then added code to insert the data in the database.
-Once I got this displaying on a simple index page I relealized my
+Once I got this displaying on a simple index page I realized my
 XML import was not working the way I thought it was. I went back to Google and
 eventually found some source code that was similar enough to what I wanted to do,
-and that helped me correct the XML import.
+and that helped me correct the XML import. This code is in the import_xml
+method of the stats controller.
+
+I didn't know what the OPS stat was so I looked that up on wikipedia.
 
 I added a helper to format the float numbers in the display: format_stat in
 stats_helper.rb.
 
 === Building the Dynamic Table Display
-got simple AJAX working
-tied together link_to_remote :url hash and map connect in routes.rb
-added logic to alternate sorting
+I read the AJAX chapters in my book and it looked like the link_to_remote helper
+is what I needed. Using examples from the books, I started playing with that,
+just getting everything to communicate. I couldn't get it to work so I did some
+more Google searches and found the solution on apidock.com.
+
+One I had a simple AJAX command working I combined the link_to_remote :url hash
+and a new route in routes.rb to pass informaton back to the controller via the
+URL. This was a fine Rails "ah ha" moment for me. I then added logic to alternate
+the sorting. This code can be seen in the sort_table method of the stats
+controller.
+
+
+I used the following books:
+Agile Web Development with Rails, 3rd Ed, Thomas, Ruby, Hansson
+The Rails Way, Fernandez
+The Well-Grounded Rubyist, Black
+Programming Ruby, Thomas
+
+And the Internet with Google!
+
 
 == Welcome to Rails
 

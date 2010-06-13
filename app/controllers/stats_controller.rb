@@ -102,14 +102,6 @@ class StatsController < ApplicationController
       @order = "desc"
     end
     
-#    if order == "desc"
-#      @stats = Stat.find(:all, :order => "avg DESC", :limit => 25)
-#      @order = "asc"
-#    else
-#      @stats = Stat.find(:all, :order => "avg ASC", :limit => 25)
-#      @order ="desc"
-#    end
-
     respond_to do |format|
       format.js
     end
@@ -147,7 +139,7 @@ class StatsController < ApplicationController
         # Import division record
         XPath.each(league, "DIVISION") do |division|
           division_name = division.elements['DIVISION_NAME'].text
-          imp_division = Division.find_by_division_name( division_name )
+          imp_division = Division.find(:first, :conditions => ["division_name = ? and league_id = ?", division_name, imp_league.id])
           if not imp_division
             imp_division = Division.create(:division_name => division_name, :league_id => imp_league.id)
           end

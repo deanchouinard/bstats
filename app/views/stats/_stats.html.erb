@@ -1,5 +1,8 @@
 <table>
   <tr>
+    <th>Year</th>
+    <th>League</th>
+    <th>Division</th>
     <th>City</th>
     <th>Team</th>
     <th>Player</th>
@@ -13,6 +16,9 @@
 
 <% @stats.each do |stat| %>
   <tr>
+    <td><%= stat.year.year %>
+    <td><%= stat.team.division.league.league_name %>
+    <td><%= stat.team.division.division_name %>
     <td><%= stat.team.team_city %>
     <td><%= stat.team.team_name %>
     <td><%= stat.player.given_name + " " + stat.player.surname %>
