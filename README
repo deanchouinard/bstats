@@ -16,7 +16,7 @@ would be a good learning experience for me.
 === Importing XML Data
 I started by searching the Internet with Google, looking for Ruby, Rails, and XML.
 I then researched several XML libraries I found, and eventually choose REXML because it is
-part of the Ruby Standard Libary and the only major critisism I found was that
+part of the Ruby Standard Library and the only major criticism I found was that
 it is slow. I didn't think that would be a bid deal for this app.
 
 I then searched for examples of using REXML. I found a small sample XML file
@@ -67,8 +67,8 @@ is what I needed. Using examples from the books, I started playing with that,
 just getting everything to communicate. I couldn't get it to work so I did some
 more Google searches and found the solution on apidock.com.
 
-One I had a simple AJAX command working I combined the link_to_remote :url hash
-and a new route in routes.rb to pass informaton back to the controller via the
+Once I had a simple AJAX command working I combined the link_to_remote :url hash
+and a new route in routes.rb to pass information back to the controller via the
 URL. This was a fine Rails "ah ha" moment for me. I then added logic to alternate
 the sorting. This code can be seen in the sort_table method of the stats
 controller.
