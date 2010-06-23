@@ -162,7 +162,7 @@ class StatsController < ApplicationController
               # only import player who have been at bat
               if not player.elements['AT_BATS'].nil?  # true if player has been at bat
                 at_bats = player.elements['AT_BATS'].text.to_f
-                runs = player.elements['RUNS'].text
+                runs = player.elements['RUNS'].text.to_f
                 hits = player.elements['HITS'].text.to_f
                 doubles = player.elements['DOUBLES'].text.to_f
                 triples = player.elements['TRIPLES'].text.to_f
@@ -202,7 +202,10 @@ class StatsController < ApplicationController
                 else
                   ops = 0.00
                 end
-
+                
+                # filter out players who did nothing
+                next if at_bats == 0.00 and steals == 0.00 and runs == 0.00
+                
                 # Import Player record
                 imp_player = Player.find(:first, :conditions => ["given_name = ? and surname = ? and position = ?", given_name, surname, position])
                 if not imp_player
